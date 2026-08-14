@@ -1,0 +1,4 @@
+image_path,label_path,patient_id,outer_fold,split
+../private_data/images/example_001.png,../private_data/labels/example_001.txt,PLACEHOLDER_PATIENT_001,0,test
+../private_data/images/example_002.png,../private_data/labels/example_002.txt,PLACEHOLDER_PATIENT_002,0,train
+../private_data/images/example_003.png,../private_data/labels/example_003.txt,PLACEHOLDER_PATIENT_003,0,val

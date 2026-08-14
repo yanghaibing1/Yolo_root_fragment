@@ -1,0 +1,3 @@
+image_path,label_path,patient_id
+../private_data/images/example_001.png,../private_data/labels/example_001.txt,PLACEHOLDER_PATIENT_001
+../private_data/images/example_002.png,../private_data/labels/example_002.txt,PLACEHOLDER_PATIENT_002
