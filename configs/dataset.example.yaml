@@ -1,7 +1,0 @@
-# Replace these relative placeholders with your privacy-compliant local paths.
-path: ../data/root_fragments
-train: train/images
-val: val/images
-test: test/images
-names:
-  0: root_fragment
