@@ -1,0 +1,30 @@
+epochs: 200
+imgsz: 640
+batch: 16
+optimizer: AdamW
+lr0: 0.008
+lrf: 0.05
+cos_lr: true
+warmup_epochs: 5
+patience: 100
+seed: 42
+deterministic: true
+device: "0"
+workers: 8
+preprocessing:
+  d: 7
+  sigmaColor: 60
+  sigmaSpace: 60
+  alpha: 0.40
+evaluation:
+  outer_folds: 5
+  inner_folds: 4
+  confidence_thresholds:
+    start: 0.00
+    stop: 1.00
+    step: 0.01
+    count: 101
+  threshold_selection: arithmetic mean inner-validation F1; ties use higher threshold
+  lesion_matching_iou: 0.5
+  outer_test_sweep: descriptive_only
+  note: NMS IoU is an inference setting and is not lesion matching IoU.
